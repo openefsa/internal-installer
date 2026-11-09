@@ -34,7 +34,7 @@ public class AppLauncherDelegate {
 		// String firstThread = "-XstartOnFirstThread";
 		
 		//for Windows 32/64 bit version with custom heap size
-		ProcessBuilder pb = new ProcessBuilder("java", "-Xms128m", "-Xmx768m", "-jar", jarName); 
+		ProcessBuilder pb = new ProcessBuilder("java", "-jar", jarName); 
 		
 		//for os x 32/64 bit version
 		//ProcessBuilder pb = new ProcessBuilder(javaPath, "-jar", jarName, heapSize, gc, firstThread); 
